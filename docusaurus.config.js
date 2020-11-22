@@ -16,8 +16,8 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
+          to: '/',
+          activeBasePath: '/',
           label: 'Home',
           position: 'left',
         },
@@ -31,7 +31,7 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-        {
+        /*{
           title: 'Docs',
           items: [
             {
@@ -43,7 +43,7 @@ module.exports = {
               to: 'docs/doc2/',
             },
           ],
-        },
+        },*/
         {
           title: 'Community',
           items: [
@@ -64,10 +64,6 @@ module.exports = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
